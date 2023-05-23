@@ -1,0 +1,82 @@
+.form-register {
+	width: 400px;
+	background-color: #FADCD9;
+	padding: 30px;
+	margin: auto;
+	max-width: 400px;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: #444444;
+}
+
+a {
+	color: #ff8c69;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #EFA8A4;
+}
+
+h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.form-register__input {
+	background: $primary;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 2px solid #EFA8A4;
+	font-family: 'calibri';
+	font-size: 18px;
+	color: #444444;
+}
+
+p {
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.form-register__submit {
+	width: 100%;
+	background: #EFA8A4;
+	border: none;
+	padding: 12px;
+	color: $primary;
+	margin: 16px 0;
+	font-size: 16px;
+}
+
+.form-register__textarea {
+	color: #444444;
+	background-color: $primary;
+	width: 100%;
+	height: 80px;
+	border: 2px solid #EFA8A4;
+	border-radius: 4px;
+}
+
+.controls {
+	width: 100%;
+	background: $primary;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 2px solid #EFA8A4;
+	font-family: 'calibri';
+	font-size: 18px;
+	color: #444444;
+}
+
+@media (max-width: 480px) {
+	.form-register {
+		max-width: 100%;
+		margin-top: 50px;
+		padding: 20px;
+	}
+}
