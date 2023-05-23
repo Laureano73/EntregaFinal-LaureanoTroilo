@@ -1,0 +1,235 @@
+#imagen-portada {
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.section__container {
+	background-color: #D3D3D399;
+	text-align: center;
+	letter-spacing: 0.3em;
+	font-size: small;
+	padding: 12px;
+	&-span1 {
+		display: block;
+		text-align: center;
+		font-size: 36px;
+		letter-spacing: 0.3em;
+		font-family: 'Times New Roman', Times, serif;
+		margin-top: 20px;
+	}
+	&-span2 {
+		display: block;
+		text-align: center;
+		font-size: 18px;
+		letter-spacing: 0.2em;
+		margin-top: 20px;
+	}
+	&-linea {
+		border: none;
+		border-top: 1px solid black;
+		margin: 20px auto;
+		width: 20%;
+	}
+}
+
+.container h4 {
+	font-weight: normal;
+}
+.image-container {
+	display: inline-block;
+}
+.grid {
+	text-align: center;
+	padding-top: 6vh;
+}
+section {
+	margin-bottom: 50px;
+}
+
+.form-register {
+	width: 400px;
+	background-color: #FADCD9;
+	padding: 30px;
+	margin: auto;
+	max-width: 400px;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: #444444;
+	a {
+		color: #ff8c69;
+		&:hover {
+			text-decoration: underline;
+			color: #EFA8A4;
+		}
+	}
+	h4 {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	a {
+		color: #ff8c69;
+	}
+	&__title {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	&__input {
+		width: 100%;
+		background: $primary;
+		padding: 10px;
+		border-radius: 4px;
+		margin-bottom: 16px;
+		border: 2px solid #EFA8A4;
+		font-family: 'calibri';
+		font-size: 18px;
+		color: #444444;
+	}
+	p {
+		height: 40px;
+		text-align: center;
+		font-size: 18px;
+		line-height: 40px;
+	}
+	&__submit {
+		width: 100%;
+		background: #EFA8A4;
+		border: none;
+		padding: 12px;
+		color: $primary;
+		margin: 16px 0;
+		font-size: 16px;
+	}
+	&__textarea {
+		color: #444444;
+		background-color: $primary;
+		width: 100%;
+		height: 80px;
+		border: 2px solid #EFA8A4;
+		border-radius: 4px;
+	}
+}
+.controls {
+	width: 100%;
+	background: $primary;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 2px solid #EFA8A4;
+	font-family: 'calibri';
+	font-size: 18px;
+	color: #444444;
+}
+.form-register {
+	width: 400px;
+	background-color: #FADCD9;
+	padding: 30px;
+	margin: auto;
+	max-width: 400px;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: #444444;
+}
+.container-ubicacion {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	span {
+		background-color: #ecd137;
+		color: #000000;
+		padding: 5px 10px;
+		border-radius: 5px;
+	}
+}
+.ubicacion-texto {
+	color: rgb(153, 246, 53);
+	margin-bottom: 20px;
+}
+iframe {
+	width: 80%;
+	height: 400px;
+	margin-top: 20px;
+}
+.cards {
+	width: 190px;
+	height: auto;
+	padding: .8em;
+	background: #f5f5f5;
+	position: relative;
+	overflow: visible;
+	box-shadow: 0 6px 20px rgba(0,2,0,0.12), 0 4px 8px rgba(0,0,0,0.24);
+	margin: 10px;
+	&:hover {
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		transform: translateY(-5px);
+		transition: .5s ease;
+	}
+	&-img {
+		background-color: #ffcaa6;
+		height: 40%;
+		width: 100%;
+		border-radius: .5rem;
+		transition: .3s ease;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img {
+			max-height: 100%;
+			max-width: 100%;
+			transition: transform .3s ease;
+		}
+		&:hover {
+			transform: translateY(-5%);
+			box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+		}
+	}
+	&-info {
+		padding-top: 10%;
+	}
+	&-footer {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 5px;
+		border-top: 1px solid #ddd;
+	}
+	&-button:hover {
+		background-color: #ffcaa6;
+		border-color: #ffcaa6;
+		transition: all 0.3s ease-out;
+	}
+	&-button {
+		border: 1px solid #252525;
+		display: flex;
+		padding: .3em;
+		cursor: pointer;
+		border-radius: 50px;
+		transition: .3s ease-in-out;
+		width: 30px;
+		margin-left: 10px;
+	}
+}
+.container-cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.texts-title {
+	font-weight: 900;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+.texts-body {
+	font-size: .9em;
+	padding-bottom: 10px;
+}
