@@ -17,7 +17,7 @@
     <!-- Menu de Navegacion -->
     <header class="header__navbar-custom">
         <h1 class="header__logo-marca">
-            <a href="#" class="header__logo-marca">NEW STYLE</a>
+            <a href="../index.html" class="header__logo-marca">NEW STYLE</a>
         </h1>
 
         <button class="header__button-burger">
@@ -42,40 +42,42 @@
                 body {
                 background-image: url(../public/img/imagencontacto.jpg);
                 }
-            </style>_
+            </style>
         
-        <section class="form-register">
-            <center>
-                <h4 class="form-register__title">
-                    <strong>Ingrese sus datos</strong>
-                </h4>
-            </center>
-            <form action="https://formspree.io/f/xayayrav" method="post" class="form-register__form">
-                <label for="username" class="form-register__label">Nombre de usuario</label>
-                <input class="form-register__input" type="text" name="nombres" id="nombres" required placeholder="Ingrese su Nombre">
-                
-                <label for="username" class="form-register__label">Apellido</label>
-                <input class="form-register__input" type="text" name="apellidos" id="apellidos" required placeholder="Ingrese su Apellido">
-                
-                <label for="username" class="form-register__label">Correo</label>
-                <input class="form-register__input" type="email" name="correo" id="correo" required placeholder="Ingrese su Correo">
-                
-                <label for="username" class="form-register__label">Contraseña</label>
-                <input class="form-register__input" type="password" name="contrasena" id="contrasena" required placeholder="Ingrese su Contraseña">
-                
-                <label for="lista" class="form-register__label">Consulta</label>
-                <textarea class="form-register__textarea" name="consulta" id="consulta"></textarea>
-                
-                <input class="form-register__submit" type="submit" value="Enviar">
+        <section>
+            <form class="form">
+                <p class="title">Registarse</p>
+                <p class="message">Regístrese ahora y obtenga acceso completo a nuestra web.</p>
+                    <div class="flex">
+                    <label>
+                        <input required="" placeholder="" type="text" class="input">
+                        <span>Nombre</span>
+                    </label>
+            
+                    <label>
+                        <input required="" placeholder="" type="text" class="input">
+                        <span>Apellido</span>
+                    </label>
+                </div>  
+                        
+                <label>
+                    <input required="" placeholder="" type="email" class="input">
+                    <span>Email</span>
+                </label> 
+                    
+                <label>
+                    <input required="" placeholder="" type="password" class="input">
+                    <span>Contraseña</span>
+                </label>
+                <label>
+                    <input required="" placeholder="" type="password" class="input">
+                    <span>Confirmar contraseña</span>
+                </label>
+                <button class="ingresar">Ingresar</button>
+                <p class="signin">Ya tienes una cuenta? <a href="#">Iniciar Sesión</a> </p>
             </form>
-            <p class="form-register__forgot-password"><a href="#">¿Olvidó su contraseña?</a></p>
         </section>
-        
         </main>
-        <br>
-        <br>
-        <br>
-        <br>
 
         <footer class="footer">
             <h5>NUESTRAS REDES</h5>
